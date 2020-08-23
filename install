@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# https://www.thepolyglotdeveloper.com/2018/03/install-nodejs-raspberry-pi-zero-w-nodesource/
+
 echo "installing node 10.x"
 curl -sL https://deb.nodesource.com/setup_10.x > ~/node_setup.sh
 sudo bash ~/node_setup.sh
